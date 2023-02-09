@@ -26,17 +26,18 @@ struct ContentView: View {
                     .frame(width: geo.size.width, height: geo.size.height, alignment: . center)
                     .opacity(0.5)
                 
-                Rectangle()
+//                Rectangle()
+//                    .fill(Color.black)
+//                    .frame(width:340, height:560 )
+//                    .offset(y: -70)
+//                    .opacity(0.10)
                 
-                    .fill(Color.black)
-                    .frame(width:340, height:560 )
-                    .offset(y: -70)
-                    .opacity(0.10)
-                Rectangle()
+                RoundedRectangle(cornerRadius: 40)
                 
                     .fill(Color.init(red: 255, green: 248, blue: 228))
                     .frame(width:330, height:550 )
                     .offset(y: -70)
+                    .shadow(radius: 10, x: 0, y: 0)
                 
                 
                 
@@ -71,7 +72,7 @@ struct ContentView: View {
                             .font(.subheadline)
                             .foregroundColor(.black)
                             .offset(y: -100)
-                            .offset(x:70)
+                            .offset(x:88)
                         Spacer()
                         
                         Text(self.Hobby)
@@ -86,7 +87,7 @@ struct ContentView: View {
                             .font(.subheadline)
                             .foregroundColor(.black)
                             .offset(y: 40)
-                            .offset(x:-74)
+                            .offset(x:-79)
                         
                         
                         
