@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var CatchPhrase: String = "cottontail"
     var Birthday: String = "Birthday: 02/02"
     var Personality: String = "Uchi"
